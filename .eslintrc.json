@@ -7,17 +7,32 @@
     "plugin:import/warnings"
   ],
   "parserOptions": {
-    "ecmaVersion": 7,
+    "ecmaVersion": 6,
     "sourceType": "module"
   },
   "env": {
     "browser": true,
     "node": true,
-    "mocha": true
+    "mocha": true,
+    "es6":true
   },
+
   "rules": {
 
-    "no-console": 1
+    "no-console": 0,
+    "import/no-unresolved": [0, { "commonjs": true, "amd": true }],
+    "import/named": 0,
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0,
+    "import/namespace": 0,
+    "import/default": 0,
+    "import/export": 0,
+    "no-unsafe-finally": 0,
+    "no-undef":"off",
+    "no-self-assign":"off",
+    "no-prototype-builtins":"off"
+
+
 
   }
 }
