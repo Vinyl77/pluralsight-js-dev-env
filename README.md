@@ -1,2 +1,3 @@
 # pluralsight-js-dev-env
-oh yeah
+This is a course offered by IBM for the apprenticeship program.
+ 
